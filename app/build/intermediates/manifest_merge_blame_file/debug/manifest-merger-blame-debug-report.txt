@@ -1,0 +1,67 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.androiddevs.grocerylist"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\HikimoriKS\Downloads\MVVMShoppingList-master\MVVMShoppingList-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\HikimoriKS\Downloads\MVVMShoppingList-master\MVVMShoppingList-master\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\HikimoriKS\Downloads\MVVMShoppingList-master\MVVMShoppingList-master\app\src\main\AndroidManifest.xml:6:5-21:19
+12        android:name="com.androiddevs.grocerylist.ShoppingApplication"
+12-->C:\Users\HikimoriKS\Downloads\MVVMShoppingList-master\MVVMShoppingList-master\app\src\main\AndroidManifest.xml:14:9-44
+13        android:allowBackup="true"
+13-->C:\Users\HikimoriKS\Downloads\MVVMShoppingList-master\MVVMShoppingList-master\app\src\main\AndroidManifest.xml:7:9-35
+14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+14-->[androidx.core:core:1.1.0] C:\Users\HikimoriKS\.gradle\caches\transforms-2\files-2.1\ce1635782ed616d72db5bb7f69df3596\core-1.1.0\AndroidManifest.xml:24:18-86
+15        android:debuggable="true"
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\Users\HikimoriKS\Downloads\MVVMShoppingList-master\MVVMShoppingList-master\app\src\main\AndroidManifest.xml:8:9-43
+17        android:label="@string/app_name"
+17-->C:\Users\HikimoriKS\Downloads\MVVMShoppingList-master\MVVMShoppingList-master\app\src\main\AndroidManifest.xml:9:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->C:\Users\HikimoriKS\Downloads\MVVMShoppingList-master\MVVMShoppingList-master\app\src\main\AndroidManifest.xml:10:9-54
+19        android:supportsRtl="true"
+19-->C:\Users\HikimoriKS\Downloads\MVVMShoppingList-master\MVVMShoppingList-master\app\src\main\AndroidManifest.xml:11:9-35
+20        android:testOnly="true"
+21        android:theme="@style/AppTheme" >
+21-->C:\Users\HikimoriKS\Downloads\MVVMShoppingList-master\MVVMShoppingList-master\app\src\main\AndroidManifest.xml:12:9-40
+22        <activity android:name="com.androiddevs.grocerylist.ui.shoppinglist.ShoppingActivity" >
+22-->C:\Users\HikimoriKS\Downloads\MVVMShoppingList-master\MVVMShoppingList-master\app\src\main\AndroidManifest.xml:15:9-20:20
+22-->C:\Users\HikimoriKS\Downloads\MVVMShoppingList-master\MVVMShoppingList-master\app\src\main\AndroidManifest.xml:15:19-67
+23            <intent-filter>
+23-->C:\Users\HikimoriKS\Downloads\MVVMShoppingList-master\MVVMShoppingList-master\app\src\main\AndroidManifest.xml:16:13-19:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->C:\Users\HikimoriKS\Downloads\MVVMShoppingList-master\MVVMShoppingList-master\app\src\main\AndroidManifest.xml:17:17-69
+24-->C:\Users\HikimoriKS\Downloads\MVVMShoppingList-master\MVVMShoppingList-master\app\src\main\AndroidManifest.xml:17:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->C:\Users\HikimoriKS\Downloads\MVVMShoppingList-master\MVVMShoppingList-master\app\src\main\AndroidManifest.xml:18:17-77
+26-->C:\Users\HikimoriKS\Downloads\MVVMShoppingList-master\MVVMShoppingList-master\app\src\main\AndroidManifest.xml:18:27-74
+27            </intent-filter>
+28        </activity>
+29
+30        <service
+30-->[androidx.room:room-runtime:2.2.1] C:\Users\HikimoriKS\.gradle\caches\transforms-2\files-2.1\599b5b8d39f817f8a9881c8125a13d63\room-runtime-2.2.1\AndroidManifest.xml:25:9-27:40
+31            android:name="androidx.room.MultiInstanceInvalidationService"
+31-->[androidx.room:room-runtime:2.2.1] C:\Users\HikimoriKS\.gradle\caches\transforms-2\files-2.1\599b5b8d39f817f8a9881c8125a13d63\room-runtime-2.2.1\AndroidManifest.xml:26:13-74
+32            android:exported="false" />
+32-->[androidx.room:room-runtime:2.2.1] C:\Users\HikimoriKS\.gradle\caches\transforms-2\files-2.1\599b5b8d39f817f8a9881c8125a13d63\room-runtime-2.2.1\AndroidManifest.xml:27:13-37
+33
+34        <provider
+34-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\HikimoriKS\.gradle\caches\transforms-2\files-2.1\63103c486f858612f04404cc298c4f4a\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+35            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+35-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\HikimoriKS\.gradle\caches\transforms-2\files-2.1\63103c486f858612f04404cc298c4f4a\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+36            android:authorities="com.androiddevs.grocerylist.lifecycle-process"
+36-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\HikimoriKS\.gradle\caches\transforms-2\files-2.1\63103c486f858612f04404cc298c4f4a\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+37            android:exported="false"
+37-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\HikimoriKS\.gradle\caches\transforms-2\files-2.1\63103c486f858612f04404cc298c4f4a\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+38            android:multiprocess="true" />
+38-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\HikimoriKS\.gradle\caches\transforms-2\files-2.1\63103c486f858612f04404cc298c4f4a\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+39    </application>
+40
+41</manifest>

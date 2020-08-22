@@ -1,0 +1,4 @@
+#Fri Aug 21 19:48:35 ICT 2020
+base.0=C\:\\Users\\HikimoriKS\\Downloads\\MVVMShoppingList-master\\MVVMShoppingList-master\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
