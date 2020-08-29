@@ -15,6 +15,7 @@ abstract class ShoppingDatabase: RoomDatabase() {
     abstract fun getShoppingDao(): ShoppingDao
 
     companion object {
+//        make a field are visible in other treads
             @Volatile
         private var instance: ShoppingDatabase? = null
         private val LOCK = Any()
